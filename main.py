@@ -815,10 +815,10 @@ def convert2calendar(update,bot:ObigramClient):
     pass
 
 def main():
-    bot_token = os.environ.get('bot_token')
+    bot_token = os.environ.get('5587927508:AAFGPFmDQdwusg2YQVhmKxvTGWJihEvIp8E')
     print('init bot.')
     #set in debug
-    #bot_token = '5350913309:AAE6_F3tyck8PQSComzgd0o6AeQ3xpKDcIU'
+    #bot_token = '5587927508:AAFGPFmDQdwusg2YQVhmKxvTGWJihEvIp8E'
     bot = ObigramClient(bot_token)
     bot.onMessage(onmessage)
     bot.onCallbackData('/cancel ',cancel_task)
